@@ -18,5 +18,7 @@ public interface ApiService {
             @Field("password") String password
     );
 
+    @GET("heheheh/heheheh")
+    Call<JsonObject> gethehehee();
 
 }
